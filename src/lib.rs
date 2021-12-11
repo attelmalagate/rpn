@@ -868,8 +868,6 @@ fn get_token(sce: &mut Chars) -> Result<Option<Token>, RpnError> {
 			}
 			else {
 				return get_token_number(c, NumType::Float, LexErr::BadExpVal, &mut token);
-				//return if let Err(e)=get_token_number(c, NumType::Float, 7, &mut token) 
-				//	{Err(e)} else {Ok(Some(token))};
 			}
 		}
 		else if step == Lex::NumHex {
