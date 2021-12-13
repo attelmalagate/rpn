@@ -1,5 +1,5 @@
 # rpn
-### Simple Rust rpn calculator library
+### Simple Rust Reverse Polish Notation calculator library
 rpn is a rust library providing a simple Reverse Polish Notation calculator library
 Although conceived as an exercise to learn some of rust fundamentals through a real life exercise, it does provide however some interesting functionalities with a low memory footprint and CPU requirements. It can be useful notably in the area of embedded devices or remote automation, to add simple but powerful virtual variables from actual inputs or outputs.
 
