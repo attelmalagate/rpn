@@ -18,7 +18,8 @@ Although conceived as an exercise to learn some of the fundamentals of the rust 
   - The value returned by the eval function is associated with the operator/function token which is then no longer available for execution but becomes available as a normal operand to be consumed by the next operator or function
 
 ### Implementation
-- Values associated with tokens are variant numbers (EVar), implemented in a separate module; EVar are represented as enum, and use operators overloading. For the sake of simplicity, 3 types of variant have been defined so far: i64, f64 and bool
+- Values associated with tokens are variant numbers (EVar), implemented in a separate module; EVar are represented as enum, and use operators overloading. 
+For the sake of simplicity, 4 types of variant have been defined so far: String, i64, f64 and bool
 
 
 
